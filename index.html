@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Foundations</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1 id="page-title">BrightPath Skills Summit</h1>
+
+    <button id="menu-button" class="menu-button" type="button" aria-expanded="false" aria-controls="main-navigation">
+      Menu 
+    </button>
+
+    <nav id="main-navigation" class="main-nav">
+      <a href="#about">About</a>
+      <a href="#tracks">Tracks</a>
+      <a href="#register">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About the Summit</h2>
+
+      <p id="summit-description">A practical learning event for emerging professionals.</p>
+
+      <button id="learn-more-button" type="button">
+        Learn More
+      </button>
+
+      <p id="extra-info" class="hidden">Participants will learn practical technology and career skills.</p>
+    </section>
+
+    <section id="tracks">
+      <h2>Learning Tracks</h2>
+
+      <p class="track">Web Development</p>
+      <p class="track">Cybersecurity</p>
+      <p class="track">Digital Business</p>
+    </section>
+
+    <section id="register">
+      <h2>Registration Preview</h2>
+
+      <label for="participant-name">Your Name</label>
+      <input type="text" id="participant-name" placeholder="Enter your name">
+      <p id="name-preview">Your name will appear here.</p>
+    </section>
+  </main>
+</body>
+</html>
